@@ -1,0 +1,37 @@
+.tandem-anchor {
+  background: rgba(255, 213, 74, 0.35);
+  border-bottom: 2px solid rgba(230, 160, 0, 0.85);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.tandem-anchor:hover {
+  background: rgba(255, 213, 74, 0.6);
+}
+
+.tandem-comment-card {
+  transition: background-color 120ms ease;
+}
+
+.tandem-comment-focused {
+  background: var(--background-secondary);
+  border-radius: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.tandem-comment-focused blockquote {
+  border-left-color: var(--interactive-accent);
+}
+
+.tandem-comment-body {
+  font-size: var(--font-ui-small);
+}
+
+.tandem-comment-body > :first-child {
+  margin-top: 0;
+}
+
+.tandem-comment-body > :last-child {
+  margin-bottom: 0;
+}

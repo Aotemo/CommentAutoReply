@@ -1,0 +1,9 @@
+{
+  "id": "tandem-claude-autoreply",
+  "name": "Comment & Auto Reply",
+  "version": "0.12.0",
+  "minAppVersion": "1.7.2",
+  "description": "Anchor-highlighted Tandem comments in a sidebar with Markdown preview, delete, and automatic replies from a chosen local AI CLI (Claude, Codex, Qoder, CodeBuddy).",
+  "author": "Local",
+  "isDesktopOnly": true
+}
